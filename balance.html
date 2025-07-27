@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Account Balance - Antigua Saving</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', monospace;
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    .balance-container {
+      background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+      padding: 30px;
+      border-radius: 10px;
+      border: 3px solid #34495e;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      width: 900px;
+      overflow-x: auto;
+    }
+
+    .bank-title {
+      color: #3498db;
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .bank-address,
+    .report-date {
+      color: #34495e;
+      font-size: 14px;
+      margin: 5px 0 20px 0;
+      text-align: center;
+    }
+
+    .balance-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      font-size: 14px;
+    }
+
+    .balance-table th,
+    .balance-table td {
+      border: 1px solid #34495e;
+      padding: 8px 10px;
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .balance-table thead {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .balance-table tbody tr:nth-child(even) {
+      background-color: #ecf0f1;
+    }
+
+    .balance-table tbody tr:hover {
+      background-color: #d0e4f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="balance-container">
+    <h1 class="bank-title">ANTIGUA SAVING</h1>
+    <p class="bank-address">840 Reforma Ave. - Guatemala, Guatemala</p>
+    <p class="report-date">Report Date: <strong>August 26, 1984</strong></p>
+
+    <table class="balance-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Debit</th>
+          <th>Credit</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>08/01/1984</td><td>Initial Deposit</td><td>-</td><td>$3,000.00</td><td>$3,000.00</td></tr>
+        <tr><td>08/02/1984</td><td>Electricity Bill</td><td>$120.00</td><td>-</td><td>$2,880.00</td></tr>
+        <tr><td>08/03/1984</td><td>Transfer Received</td><td>-</td><td>$250.00</td><td>$3,130.00</td></tr>
+        <tr><td>08/04/1984</td><td>Grocery Purchase</td><td>$300.00</td><td>-</td><td>$2,830.00</td></tr>
+        <tr><td>08/08/1984</td><td>Payroll Deposit</td><td>-</td><td>$1,200.00</td><td>$4,030.00</td></tr>
+        <tr><td>08/10/1984</td><td>Rent Payment</td><td>$700.00</td><td>-</td><td>$3,330.00</td></tr>
+        <tr><td>08/14/1984</td><td>Bank Fee</td><td>$15.00</td><td>-</td><td>$3,315.00</td></tr>
+        <tr><td>08/20/1984</td><td>Cash Deposit</td><td>-</td><td>$500.00</td><td>$3,815.00</td></tr>
+        <tr><td>08/23/1984</td><td>Office Supplies</td><td>$180.00</td><td>-</td><td>$3,635.00</td></tr>
+        <tr><td>08/26/1984</td><td>Check No. 38-821</td><td>$1,850.00</td><td>-</td><td>$1,785.00</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
